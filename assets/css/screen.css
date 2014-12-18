@@ -1717,6 +1717,26 @@ body:not(.post-template) .post-title {
 }
 
 
+
+
+
+#disqus_thread{
+     position: relative;
+}
+#disqus_thread:after{
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     background:white;
+}
+
+
+
+
+
 /* ==========================================================================
    12. Animations
    ========================================================================== */
